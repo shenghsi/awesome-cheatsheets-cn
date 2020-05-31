@@ -17,7 +17,7 @@ tmux a/at/attach -t num   # 如果有多个 session, 指定 session num 连接
 tmux kill-ses -t myses    # kill 某个 session
 tmux kill-ses -a          # kill 所有 session, 除了当前的 session
 tmux kill-ses -a -t myses # kill 所有 session, 除了 myses
-
+tmux kill-server          # cleanly and gracefully kill all tmux open sessions (and server).
 
 ##############################################################################
 # 操作方式 
